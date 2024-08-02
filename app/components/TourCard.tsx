@@ -5,7 +5,7 @@ type TourCard = { tour: Tour }
 export default ({ tour }: TourCard) => {
   const imageSrc = `${process.env.BASE_URI}/img/tours`
   return (
-    <div className="flex flex-col mb-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="flex flex-col m-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <div className="">
           <img

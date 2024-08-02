@@ -12,7 +12,7 @@ async function getTours() {
 export default async function Home() {
   const tours = await getTours()
   return (
-    <div className="bg-slate-600 flex flex-wrap justify-around py-4">
+    <div className="flex flex-wrap px-6 py-4">
       {tours?.map((tour: Tour) => {
         return (
           <div className="flex">
